@@ -1,0 +1,6 @@
+@import url('https://fonts.maateen.me/mukti/font.css');
+#first-slide {
+    font-family: 'Mukti', Arial, sans-serif !important;
+    text-shadow: rgb(0 0 0 / 18%) 0px 12.2031px 30.4467px;
+    filter: opacity(1);
+}
