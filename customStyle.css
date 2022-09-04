@@ -1,6 +1,81 @@
 @import url('https://fonts.maateen.me/mukti/font.css');
-#first-slide {
+body{
     font-family: 'Mukti', Arial, sans-serif !important;
     text-shadow: rgb(0 0 0 / 18%) 0px 12.2031px 30.4467px;
     filter: opacity(1);
+}
+@media only screen and (max-width: 768px) {
+    #second-slide{
+        background: url(assets/images/second_cover.png);
+        padding: 1rem 1rem 2rem 1rem;
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: 100%;
+    }
+    /* #second-slide > div > div > div > h2{
+        margin-top: 15rem!important;
+    } */
+    #second-slide > div > div > div{
+        padding: 13rem 0 0 1rem;
+    }
+    #third-slide{
+        background: linear-gradient(to right, #00c4cc 0%, #ecf46f 100%);
+        padding: 0 0px 610px;
+        color: black;
+    }
+    .third-slide-inner{
+        background: url(assets/Images/third_slide_mobile.png);
+        background-repeat: no-repeat;
+        background-position: top;
+        width: 100%;
+        height: 100%;
+        content: " ";
+    }
+    #third-slide > div > div > div{
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+}
+@media only screen and (min-width: 768px) {
+    #second-slide{
+        background: url(assets/images/second_slide_desk.png);
+        padding: 250px 10px 250px;
+        background-repeat: no-repeat;
+        background-position: center right;
+        background-size: 80%;
+        color: black;
+    }
+    #second-slide > div > div > div{
+
+        margin-top: -15rem;
+    }
+    #third-slide{
+        background: linear-gradient(to right, #00c4cc 0%, #ecf46f 100%);
+        padding: 257px 0px 0px;
+        color: black;
+    }
+    .third-slide-inner{
+        background: url(assets/Images/third_slide_desk.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        width: 100%;
+        height: 100%;
+        content: " ";
+
+    }
+    #third-slide > div > div > div{
+        margin-top: -16rem;
+    }
+    #third-slide > div{
+        padding-left: 1px !important;
+    }
+    /* #third-slide > div > div > div{
+        justify-content: flex-end;
+    } */
+}
+.table-bordered, .table-bordered td, .table-bordered th {
+    border: 2px solid black !important;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
 }
