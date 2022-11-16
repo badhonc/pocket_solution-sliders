@@ -1,2 +1,2 @@
 # pocket_solution-sliders
-It's a from-scracth html, css, bootstrap one page design.
+It's a from-scracth html, css, bootstrap single-page application design.
